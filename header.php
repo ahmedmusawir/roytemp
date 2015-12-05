@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Diz Nutz</title>
+		<title>WANDERVALE</title>
 
 		<!-- Bootstrap CSS -->
 		<link href="style.css" rel="stylesheet">
@@ -23,8 +23,8 @@
 				<img src="img/logo-220x250.jpg" alt="">
 			</div>
 			<div class="top-address col-md-9 text-right">
-				<p>myass@gmail.com</p>
-				<p>404.218.1998</p>
+				<span>myass@gmail.com</span>
+				<span>404.218.1998</span>
 			</div>
 		</div>
 	</section>

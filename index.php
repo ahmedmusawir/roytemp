@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<div class="content-wrap"> 
 
 <article class="front-page-slider">
 	
@@ -50,9 +51,11 @@
 
 </article>
 
-<section class="fp-blk-1 container">
+<section class="fp-blk-1">
 	
-	<div class="row">
+	<div class="container">
+		
+		<div class="row">
 
 		<h2 class="header-txt">FINEST ARCHITECTURAL SELECTION</h2>
 		<em><p>Aboluetely Stunning Design & Functionality</p></em>
@@ -96,6 +99,7 @@
 		</article>
 
 	</div>
+	</div>
 
 </section>
 
@@ -120,7 +124,7 @@
 
 		<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-subway  fa-5x"></i> 
 
 			<h4>TRANSPORT</h4>
 			
@@ -136,15 +140,17 @@
 
 		<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-shopping-basket fa-5x"></i> 
 
-			<h4>BUS</h4>
+			<h4>SHOPPING MALLS</h4>
 			
 			<ul class="img-box-text">
 
-				<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-				<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-				<li>Near KJE, connected to PIE and BKE
+				<li>Lot One Shoppers’ Mall
+				<li>Hillion Mall (2017)
+				<li>Bukit Panjang Plaza
+				<li>Junction 10
+				<li>Yew Tee Point
 			
 			</ul>
 
@@ -152,31 +158,39 @@
 
 		<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-bus fa-5x"></i> 
 
-			<h4>SHOPPING MALLS</h4>
+			<h4>BUSES</h4>
 			
 			<ul class="img-box-text">
 
-				<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-				<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-				<li>Near KJE, connected to PIE and BKE
+				<li>Bus stop opp Blk 210: 172, 190, 975, 985
+				<li>Bus stop in front of CCK Polyclinic: 190, 307, 975, 975A, 982E, 985
+				<li>Direct bus to Orchard Shopping Belt and Marina Bay
 			
 			</ul>
 
 		</article>
+
+		
 
 			<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-graduation-cap fa-5x"></i> 
 
-			<h4>TRANSPORT</h4>
+			<h4>EDUCATION</h4>
 			
 			<ul class="img-box-text">
 
-				<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-				<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-				<li>Near KJE, connected to PIE and BKE
+				<h5>PRIMARY SCHOOLS</h5>
+				<li>South View Primary School
+				<li>De La Salle Primary School
+				<h5>SECONDARY SCHOOL</h5>
+				<li>Bukit Panjang Government High School</li>
+				<h5>JUNIOR COLLEGE</h5>
+				<li>Pioneer Junior College</li>
+
+				
 			
 			</ul>
 
@@ -184,15 +198,16 @@
 
 		<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-cutlery fa-5x"></i> 
 
-			<h4>BUS</h4>
+			<h4>MARKETS/FOOD CENTERS</h4>
 			
 			<ul class="img-box-text">
 
-				<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-				<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-				<li>Near KJE, connected to PIE and BKE
+				<li>Teck Whye Shopping Centre
+				<li>Keat Hong Shopping Centre
+				<li>Limbang Shopping Centre
+				<li>Bukit Panjang Hawker Centre & Market
 			
 			</ul>
 
@@ -200,16 +215,20 @@
 
 		<article class="img-box col-md-4">
 
-			<i class="fa fa-camera-retro fa-5x"></i> 
+			<i class="fa fa-google-wallet fa-5x"></i> 
 
-			<h4>SHOPPING MALLS</h4>
+			<h4>LIFE STYLE</h4>
 			
 			<ul class="img-box-text">
 
-				<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-				<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-				<li>Near KJE, connected to PIE and BKE
-			
+				<li>Choa Chu Kang Park
+				<li>Choa Chu Kang Community Club
+				<li>Choa Chu Kang Sports Hall
+				<li>Warren Golf & Country Club
+				<li>HomeTeamNS @ Bukit Batok
+				<li>Bukit Batok Golf Range
+				<li>Bukit Timah Nature Reserve 
+
 			</ul>
 
 		</article>
@@ -219,7 +238,79 @@
 	
 </section>
 
+<section class="fp-blk-3">
+	
+	<div class="container">
+		<div class="row">
+			
+			<article class="image-box col-md-6">
+				<img src="img/block3img1.jpg" alt="">
+			</article>
+			
+			<article class="text-box col-md-6">
+				
+				<h3>
+				<i class="fa fa-quote-left fa-4x"></i>
+				</h3>
+				<em><p>Near Hillion Mall (upcoming 2017) and Bukit Panjang Plaza ...</p></em>
 
+				<div class="text-center more-button">
+					<a href="#" class="btn btn-default btn-lg">Learn More</a>
+				</div>
+			</article>
+		</div>
+		
+	</div>
+</section>
+
+<section class="fp-blk-4">
+	
+	<div class="container">
+		<div class="row">
+			
+			<article class="text-box col-md-6">
+				
+				<h3>
+				<i class="fa fa-quote-left fa-4x"></i>
+				</h3>
+				<em><p>Walk to Lot One Shoppers’ Mall. Supermarket and Cinema. Enjoy the Mall Aerobics event at Lot One’s Roof Garden ...</p></em>
+
+				<div class="text-center more-button">
+					<a href="#" class="btn btn-default btn-lg">Learn More</a>
+				</div>
+
+			</article>
+			
+			<article class="image-box col-md-6">
+				<img src="img/block3img2.jpg" alt="">
+			</article>
+			
+		</div>
+	</div>
+</section>
+
+<section class="fp-blk-5">
+	
+	<div class="container">
+		<div class="row">
+
+		<h2 class="header-txt">URA CCK DRAFT MASTER PLAN 2013</h2>
+
+			
+			<article class="image-box col-md-12">
+				<img src="img/URA-CCK-Draft-Master-Plan-2013.jpg" alt="">
+			</article>
+
+			<div class="text-center more-button">
+				<a href="#" class="btn btn-default btn-lg">Learn More</a>
+			</div>
+
+			
+		</div>
+	</div>
+</section>
+
+</div> <!-- END CONTENT WRAP. WRAPS THE WHOLE CONTENT -->
 <?php include "footer.php" ?>
 
 

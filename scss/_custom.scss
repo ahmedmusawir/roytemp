@@ -4,6 +4,11 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
+	// background-color: #211D1E;
+}
+
+.content-wrap {
+	z-index: 1;
 }
 
 .navbar {
@@ -13,24 +18,33 @@ body {
     // border: 1px solid transparent;
 }
 
-.logo {
-	position: relative;
+.top-address-bar {
 
-	img {
-		height: 100px;
-		position: fixed;
-		z-index: 5;
+	background-color: $tuatara;
+	color: $iron;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+
+	.logo {
+		position: relative;
+
+		img {
+			height: 100px;
+			position: fixed;
+			z-index: 5;
+		}
 	}
-}
 
-.top-address {
-	// border: 1px solid black;
+	.top-address {
+		// border: 1px solid black;
+	}
 }
 
 .fp-blk-1 {
 	text-align: center;
 	padding-top: 3rem;
 	padding-bottom: 5rem;
+	background-color: white;
 
 	.img-box {
 		padding-top: 4rem;
@@ -52,7 +66,7 @@ body {
 	.img-box {
 
 		padding-top: 4rem;
-		
+
 
 		.img-box-text {
 			text-align: left;
@@ -65,6 +79,135 @@ body {
 	}
 }
 
+.fp-blk-3 {
+	z-index: 5;
+	background: white;
+
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		h3 {
+			color: lighten( $gray-light, 20% );
+		}
+		p {
+			font-size: 3rem;
+			font-weight: 300;
+			color: lighten( $gray-light, 20% );
+			text-align: center;
+
+		}
+		.more-button {
+			padding-top: 3rem;
+		}
+	}
+}
+
+.fp-blk-4 {
+	z-index: 5;
+	background: $gray-darker;
+
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		h3 {
+			color: lighten( $gray-light, 20% );
+		}
+		p {
+			font-size: 2rem;
+			font-weight: 300;
+			color: lighten( $gray-light, 20% );
+			text-align: center;
+
+		}
+		.more-button {
+			padding-top: 3rem;
+		}
+	}
+}
+
+.fp-blk-4 {
+	z-index: 5;
+	background: $gray-darker;
+
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		h3 {
+			color: lighten( $gray-light, 20% );
+		}
+		p {
+			font-size: 2rem;
+			font-weight: 300;
+			color: lighten( $gray-light, 20% );
+			text-align: center;
+
+		}
+		.more-button {
+			padding-top: 3rem;
+		}
+	}
+}
+
+.fp-blk-5 {
+	z-index: 5;
+	background: white;
+	text-align: center;
+
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
+		h2 {
+			color: lighten( $gray-light, 20% );
+			padding-bottom: 3rem;
+		}
+		
+		.more-button {
+			padding-top: 3rem;
+		}
+	}
+}
+
+.footer-main {
+
+	padding-top: 6rem;
+	position: relative;
+	height: 400px;
+	z-index: -999;
+	background-color: $steel;
+	color: white;
+
+	.row {
+		position: fixed;
+		bottom: 100px;
+
+	}
+
+	#copyright {
+		position: relative;
+		color: white;
+			// border: 1px solid red;
+
+
+		p {
+			// border: 1px solid red;
+			position: fixed;
+			bottom: 0;
+			padding-bottom: 2rem;
+			padding-top: 2rem;
+			z-index: -999;
+
+			width: 100%;
+			background-color: black;
+			margin-bottom: -0.5rem;
+		}
+	}
+
+	
+}
 
 
 

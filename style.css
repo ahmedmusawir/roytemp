@@ -7929,15 +7929,26 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.content-wrap {
+  z-index: 1;
+}
+
 .navbar {
   margin-bottom: 0px;
 }
 
-.logo {
+.top-address-bar {
+  background-color: #444444;
+  color: #CCCCCC;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.top-address-bar .logo {
   position: relative;
 }
 
-.logo img {
+.top-address-bar .logo img {
   height: 100px;
   position: fixed;
   z-index: 5;
@@ -7947,6 +7958,7 @@ body {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 5rem;
+  background-color: white;
 }
 
 .fp-blk-1 .img-box {
@@ -7976,6 +7988,131 @@ body {
 .fp-blk-2 .img-box h4 {
   padding-top: 1.5rem;
   padding-bottom: 3rem;
+}
+
+.fp-blk-3 {
+  z-index: 5;
+  background: white;
+}
+
+.fp-blk-3 .container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fp-blk-3 .container h3 {
+  color: #aaaaaa;
+}
+
+.fp-blk-3 .container p {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.fp-blk-3 .container .more-button {
+  padding-top: 3rem;
+}
+
+.fp-blk-4 {
+  z-index: 5;
+  background: #222222;
+}
+
+.fp-blk-4 .container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fp-blk-4 .container h3 {
+  color: #aaaaaa;
+}
+
+.fp-blk-4 .container p {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.fp-blk-4 .container .more-button {
+  padding-top: 3rem;
+}
+
+.fp-blk-4 {
+  z-index: 5;
+  background: #222222;
+}
+
+.fp-blk-4 .container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fp-blk-4 .container h3 {
+  color: #aaaaaa;
+}
+
+.fp-blk-4 .container p {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.fp-blk-4 .container .more-button {
+  padding-top: 3rem;
+}
+
+.fp-blk-5 {
+  z-index: 5;
+  background: white;
+  text-align: center;
+}
+
+.fp-blk-5 .container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fp-blk-5 .container h2 {
+  color: #aaaaaa;
+  padding-bottom: 3rem;
+}
+
+.fp-blk-5 .container .more-button {
+  padding-top: 3rem;
+}
+
+.footer-main {
+  padding-top: 6rem;
+  position: relative;
+  height: 400px;
+  z-index: -999;
+  background-color: #666666;
+  color: white;
+}
+
+.footer-main .row {
+  position: fixed;
+  bottom: 100px;
+}
+
+.footer-main #copyright {
+  position: relative;
+  color: white;
+}
+
+.footer-main #copyright p {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  z-index: -999;
+  width: 100%;
+  background-color: black;
+  margin-bottom: -0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
