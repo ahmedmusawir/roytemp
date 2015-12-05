@@ -1,0 +1,115 @@
+@import "bourbon/bourbon";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    // position: relative;
+    // min-height: 50px;
+    margin-bottom: 0px;
+    // border: 1px solid transparent;
+}
+
+.logo {
+	position: relative;
+
+	img {
+		height: 100px;
+		position: fixed;
+		z-index: 5;
+	}
+}
+
+.top-address {
+	// border: 1px solid black;
+}
+
+.fp-blk-1 {
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+
+	.img-box {
+		padding-top: 4rem;
+		// border: 1px solid red;
+
+		h4 {
+			padding-top: 1.5rem;
+			padding-bottom: 1rem;
+		}
+	}
+}
+
+.fp-blk-2 {
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+	color: white;
+
+	.img-box {
+
+		padding-top: 4rem;
+		
+
+		.img-box-text {
+			text-align: left;
+		}
+
+		h4 {
+			padding-top: 1.5rem;
+			padding-bottom: 3rem;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
