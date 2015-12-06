@@ -1,11 +1,120 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7929,8 +8038,13 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.content-wrap {
-  z-index: 1;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
 }
 
 .navbar {
@@ -7951,7 +8065,7 @@ body {
 .top-address-bar .logo img {
   height: 100px;
   position: fixed;
-  z-index: 5;
+  z-index: 3;
 }
 
 .fp-blk-1 {
@@ -7961,6 +8075,14 @@ body {
   background-color: white;
 }
 
+.fp-blk-1 h2 {
+  color: #aaaaaa;
+}
+
+.fp-blk-1 p {
+  color: #919191;
+}
+
 .fp-blk-1 .img-box {
   padding-top: 4rem;
 }
@@ -7968,6 +8090,7 @@ body {
 .fp-blk-1 .img-box h4 {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
+  color: #919191;
 }
 
 .fp-blk-2 {
@@ -7991,7 +8114,6 @@ body {
 }
 
 .fp-blk-3 {
-  z-index: 5;
   background: white;
 }
 
@@ -8016,32 +8138,6 @@ body {
 }
 
 .fp-blk-4 {
-  z-index: 5;
-  background: #222222;
-}
-
-.fp-blk-4 .container {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.fp-blk-4 .container h3 {
-  color: #aaaaaa;
-}
-
-.fp-blk-4 .container p {
-  font-size: 2rem;
-  font-weight: 300;
-  color: #aaaaaa;
-  text-align: center;
-}
-
-.fp-blk-4 .container .more-button {
-  padding-top: 3rem;
-}
-
-.fp-blk-4 {
-  z-index: 5;
   background: #222222;
 }
 
@@ -8066,7 +8162,6 @@ body {
 }
 
 .fp-blk-5 {
-  z-index: 5;
   background: white;
   text-align: center;
 }
@@ -8085,34 +8180,75 @@ body {
   padding-top: 3rem;
 }
 
-.footer-main {
-  padding-top: 6rem;
-  position: relative;
-  height: 400px;
-  z-index: -999;
-  background-color: #666666;
+/**
+ *
+ * Page Styles
+ *
+ */
+.pg-content {
+  background: white;
+}
+
+.pg-content .pg-header .pg-header-txt {
+  padding-top: 12rem;
+  padding-left: 3rem;
   color: white;
 }
 
-.footer-main .row {
-  position: fixed;
-  bottom: 100px;
+.pg-content .pg-header .pg-header-txt h1 {
+  text-shadow: 1px 1px 3px gray;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-.footer-main #copyright {
-  position: relative;
-  color: white;
+.pg-content .pg-header .pg-header-txt h4 {
+  text-shadow: 1px 1px 3px gray;
+  font-weight: 300;
 }
 
-.footer-main #copyright p {
-  position: fixed;
-  bottom: 0;
+.pg-content .container {
+  margin-top: 3rem;
   padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #777777;
+}
+
+.pg-content .container img {
   padding-top: 2rem;
-  z-index: -999;
-  width: 100%;
-  background-color: black;
-  margin-bottom: -0.5rem;
+}
+
+/**
+ *
+ * Widget Styles
+ *
+ */
+.widget {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #eeeeee;
+}
+
+.widget .widget-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #777777;
+}
+
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget ul li {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */

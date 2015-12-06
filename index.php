@@ -267,8 +267,12 @@
 	
 	<div class="container">
 		<div class="row">
+
+			<article class="image-box col-md-6 col-md-push-6">
+				<img src="img/block3img2.jpg" alt="">
+			</article>
 			
-			<article class="text-box col-md-6">
+			<article class="text-box col-md-6 col-md-pull-6">
 				
 				<h3>
 				<i class="fa fa-quote-left fa-4x"></i>
@@ -279,10 +283,6 @@
 					<a href="#" class="btn btn-default btn-lg">Learn More</a>
 				</div>
 
-			</article>
-			
-			<article class="image-box col-md-6">
-				<img src="img/block3img2.jpg" alt="">
 			</article>
 			
 		</div>
