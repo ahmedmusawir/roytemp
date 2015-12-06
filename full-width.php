@@ -15,7 +15,7 @@
   	
 	  <header id="pg-header" class="pg-header">
 
-	  <div class="pg-header-txt">
+	  <div class="pg-header-txt container">
 	  	<h1>Full Width Page</h1>
 	  	<h4><em>Extream Beauty ...</em></h4>
 	  </div>

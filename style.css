@@ -8191,7 +8191,6 @@ h1, h2, h3, h4, h5 {
 
 .pg-content .pg-header .pg-header-txt {
   padding-top: 12rem;
-  padding-left: 3rem;
   color: white;
 }
 
@@ -8208,7 +8207,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .pg-content .container {
-  margin-top: 3rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   font-size: 2rem;
   font-weight: 200;
@@ -8221,13 +8220,60 @@ h1, h2, h3, h4, h5 {
 
 /**
  *
+ * Contact Page Styles
+ *
+ */
+.contact-content .pg-header-txt {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.contact-content .pg-header-txt h2 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.contact-content .pg-header-txt h4 {
+  font-weight: 200;
+}
+
+.contact-content .container .contact-header-txt {
+  padding-bottom: 4rem;
+  font-weight: 300;
+  font-variant: small-caps;
+}
+
+.contact-content .container .col-form .contact-form {
+  padding: 3rem;
+  background-color: #e3e3e3;
+}
+
+.contact-content .container .col-content .address-text {
+  padding-bottom: 3rem;
+}
+
+.contact-content .container .col-content .contact-social span {
+  padding-right: 3rem;
+}
+
+.contact-content .container .col-content .contact-social span a {
+  color: #d5d5d5;
+}
+
+.contact-content .container .col-content .contact-social span a:hover {
+  color: red;
+}
+
+/**
+ *
  * Widget Styles
  *
  */
 .widget {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
