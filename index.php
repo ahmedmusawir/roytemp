@@ -294,7 +294,7 @@
 	<div class="container">
 		<div class="row">
 
-		<h2 class="header-txt">URA CCK DRAFT MASTER PLAN 2013</h2>
+			<h2 class="header-txt">URA CCK DRAFT MASTER PLAN 2013</h2>
 
 			
 			<article class="image-box col-md-12">
@@ -304,10 +304,10 @@
 			<div class="text-center more-button">
 				<a href="#" class="btn btn-default btn-lg">Learn More</a>
 			</div>
-
 			
 		</div>
 	</div>
+	
 </section>
 
 </div> <!-- END CONTENT WRAP. WRAPS THE WHOLE CONTENT -->

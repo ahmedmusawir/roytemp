@@ -20,7 +20,7 @@
 	<section class="top-address-bar container-fluid">
 		<div class="row clearfix">
 			<div class="logo col-md-3">
-				<img src="img/logo-220x250.jpg" alt="">
+				<!-- <img src="img/logo-220x250.jpg" alt=""> -->
 			</div>
 			<div class="top-address col-md-9 text-right">
 				<span>myass@gmail.com</span>
@@ -29,7 +29,7 @@
 		</div>
 	</section>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -39,35 +39,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">WANDERVALE</a>
+      <a class="navbar-brand hidden-md hidden-lg" href="index.php">WANDERVALE</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="contact-us.php">Contact Us <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="full-width.php">Full Width</a></li>
-            <li><a href="right-sidebar.php">Page Sidebar</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+      
+      <div class="logo hidden-sm hidden-xs">
+        <img src="img/logo-220x250.jpg" alt="">
+      </div>
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="full-width.php">Why Wandervale</a></li>
+        <li><a href="right-sidebar.php">The Project</a></li>
+        <li><a href="contact-us.php">About Us</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Registration</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>

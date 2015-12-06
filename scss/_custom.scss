@@ -24,6 +24,15 @@ h1, h2, h3, h4, h5 {
 
 .navbar {
     margin-bottom: 0px;
+    .logo {
+		position: relative;
+
+		img {
+			height: 100px;
+			position: fixed;
+			z-index: 100;
+		}
+	}
     // z-index: 2;
 }
 
@@ -42,7 +51,7 @@ h1, h2, h3, h4, h5 {
 		img {
 			height: 100px;
 			position: fixed;
-			z-index: 3;
+			z-index: 100;
 		}
 	}
 
@@ -55,7 +64,7 @@ h1, h2, h3, h4, h5 {
 
 .fp-blk-1 {
 	text-align: center;
-	padding-top: 3rem;
+	padding-top: 6rem;
 	padding-bottom: 5rem;
 	background-color: white;
 
@@ -67,14 +76,18 @@ h1, h2, h3, h4, h5 {
 	}
 
 	.img-box {
-		padding-top: 4rem;
+		padding-top: 5rem;
 		// border: 1px solid red;
 
 		h4 {
-			padding-top: 1.5rem;
+			padding-top: 5rem;
 			padding-bottom: 1rem;
 			color: lighten( $gray-light, 10% );
 
+		}
+
+		.img-box-text {
+			padding-top: 1.5rem;
 		}
 		
 	}
@@ -82,7 +95,7 @@ h1, h2, h3, h4, h5 {
 
 .fp-blk-2 {
 	text-align: center;
-	padding-top: 4rem;
+	padding-top: 6rem;
 	padding-bottom: 5rem;
 	color: white;
 
@@ -103,12 +116,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .fp-blk-3 {
-	// z-index: 5;
+
 	background: white;
 
 	.container {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
 
 		h3 {
 			color: lighten( $gray-light, 20% );
@@ -131,8 +144,8 @@ h1, h2, h3, h4, h5 {
 	background: $gray-darker;
 
 	.container {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
 
 		h3 {
 			color: lighten( $gray-light, 20% );
@@ -153,20 +166,22 @@ h1, h2, h3, h4, h5 {
 
 .fp-blk-5 {
 	// z-index: 5;
+
 	background: white;
 	text-align: center;
 
 	.container {
-		padding-top: 4rem;
-		padding-bottom: 4rem;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+
 
 		h2 {
 			color: lighten( $gray-light, 20% );
 			padding-bottom: 3rem;
 		}
 		
-		.more-button {
-			padding-top: 3rem;
+		a {
+			margin-top: 6rem;
 		}
 	}
 }
@@ -260,6 +275,7 @@ h1, h2, h3, h4, h5 {
 		}
 
 		.col-content {
+			padding-bottom: 5rem;
 
 			.address-text {
 				padding-bottom: 3rem;
