@@ -1,3 +1,5 @@
+	<div class="footer-container">
+
 	<footer class="footer-main">
 
 	<section class="footer-body  container">
@@ -5,53 +7,58 @@
 		<div class="row">
 		
 
-			<article class="img-box col-md-4">
+			<article class="img-box col-md-6">
 
-				<i class="fa fa-subway  fa-5x"></i> 
+			<aside id="text-2" class="widget widget_text">
+		      <h2 class="widget-title">Our Goal</h2>
+		      <div class="textwidget">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      </div>
+		   </aside>
 
-				<h4>TRANSPORT</h4>
-				
-				<ul class="img-box-text">
+			
+			</article>
 
-					<li>Choa Chu Kang (NS4/BP1) MRT, LRT and Bus Interchange
-					<li>Bukit Panjang Integrated Transport Hub (LRT/ DTL2/ Bus)
-					<li>Near KJE, connected to PIE and BKE
-				
-				</ul>
+			
+			<article class="img-box col-md-3">
+
+			<aside id="nav_menu-2" class="widget widget_nav_menu">
+		      <h2 class="widget-title">Quick Links</h2>
+		      <div class="menu-menu-1-container">
+		         <ul id="menu-menu-1" class="menu">
+		            <li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11"><a href="http://wptest/">Home</a></li>
+		            <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="http://wptest/?page_id=7">About Us</a></li>
+		            <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="http://wptest/?page_id=9">Contact Us</a></li>
+		            <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://wptest/?page_id=5">Home</a></li>
+		            <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="http://wptest/?page_id=2">Sample Page</a></li>
+		         </ul>
+		      </div>
+		   </aside>
+
+
+			
 
 			</article>
 
-			<article class="img-box col-md-4">
+			<article class="img-box col-md-3">
 
-				<i class="fa fa-shopping-basket fa-5x"></i> 
+		
+		    <aside id="recent-posts-2" class="widget widget_recent_entries">
+		      <h2 class="widget-title">Recent Posts</h2>
+		      <ul>
+		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		      </ul>
+		   </aside>
 
-				<h4>SHOPPING MALLS</h4>
-				
-				<ul class="img-box-text">
-
-					<li>Lot One Shoppers’ Mall
-					<li>Hillion Mall (2017)
-					<li>Bukit Panjang Plaza
-					<li>Junction 10
-					<li>Yew Tee Point
-				
-				</ul>
-
-			</article>
-
-			<article class="img-box col-md-4">
-
-				<i class="fa fa-bus fa-5x"></i> 
-
-				<h4>BUSES</h4>
-				
-				<ul class="img-box-text">
-
-					<li>Bus stop opp Blk 210: 172, 190, 975, 985
-					<li>Bus stop in front of CCK Polyclinic: 190, 307, 975, 975A, 982E, 985
-					<li>Direct bus to Orchard Shopping Belt and Marina Bay
-				
-				</ul>
+			
 
 			</article>
 
@@ -64,6 +71,7 @@
 	</div>
 
 </footer>
+</div> <!-- FOOTER CONTAINER ENDED -->
 
 
 
