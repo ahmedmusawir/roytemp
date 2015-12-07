@@ -11,13 +11,20 @@
 
 			<aside id="text-2" class="widget widget_text">
 		      <h2 class="widget-title">Our Goal</h2>
-		      <div class="textwidget">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		      <div class="textwidget">
+
+		      	Sim Lian Group’s two core activities of property development and construction are highly synergetic, allowing the sharing of resources and greater economies of scale. In addition, the Group’s supporting businesses of electrical and civil engineering, metal
+ 
+works, trading of industrial lubricants and the leasing of mobile sanitation provides additional value to its offerings. Sim Lian Group will continue to sharpen its operational efficiency and cost effectiveness while improving the quality of its projects, allowing savings to be passed to customers. As the Group evolves, it continues to dedicate itself to the mission of Creating Space, Creating Homes.
 		      </div>
+
+		      <div class="footer-social">
+				<span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>				
+				<span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>				
+				<span><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></span>				
+				<span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>				
+				<span><a href="#"><i class="fa fa-pinterest fa-2x hidden-xs"></i></a></span>				
+			</div>
 		   </aside>
 
 			
@@ -48,13 +55,13 @@
 
 		
 		    <aside id="recent-posts-2" class="widget widget_recent_entries">
-		      <h2 class="widget-title">Recent Posts</h2>
+		      <h2 class="widget-title">Find Us</h2>
 		      <ul>
-		         <li><a href="#">WordPress Resources at SiteGround</a></li>
-		         <li><a href="#">WordPress Resources at SiteGround</a></li>
-		         <li><a href="#">WordPress Resources at SiteGround</a></li>
-		         <li><a href="#">WordPress Resources at SiteGround</a></li>
-		         <li><a href="#">WordPress Resources at SiteGround</a></li>
+		        <li>198 West 21th Street, Suite 721</li>				
+				<li>New York, NY 10010</li>				
+				<li><i class="fa fa-envelope fa-1x"></i> &nbsp; abc@zyz.com</li>				
+				<li><i class="fa fa-phone fa-1x"></i> &nbsp;404.210.1998</li>				
+				<li><i class="fa fa-fax fa-1x"></i> &nbsp;909.123.1232</li>	
 		      </ul>
 		   </aside>
 
@@ -67,7 +74,7 @@
 
 	</section>
 	<div id="copyright" class="copyright">
-		<p class="text-center">All Rights Reserved &copy; 2015. Developed and SEO done by HTMLfiveDev.com</p>
+		<p class="text-center">All Rights Reserved WANDERVALE &copy; 2015. SEO and Development by <a href="www.htmlfivedev.com">HTMLfiveDev.com</a></p>
 	</div>
 
 </footer>
@@ -79,5 +86,28 @@
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<script src="js/wow.min.js"></script>
+        <script>
+              new WOW().init();
+        </script>
+
+
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

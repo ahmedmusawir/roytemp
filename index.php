@@ -63,7 +63,7 @@
 
 		<article class="img-box col-md-4">
 
-			<img src="img/sec1_imgbox1.jpg" alt="">
+			<img class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" src="img/sec1_imgbox1.jpg" alt="">
 
 			<h4>WE DEVELOP BRANDS</h4>
 			
@@ -88,7 +88,7 @@
 
 		<article class="img-box col-md-4">
 
-			<img src="img/sec3_imgbox3.jpg" alt="">
+			<img class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" src="img/sec3_imgbox3.jpg" alt="">
 
 			<h4>REALIZE YOUR DREAMS</h4>
 			
@@ -122,7 +122,7 @@
 		<em><p>Don't let an opportunity of a life time pass you by ...</p></em>
 
 
-		<article class="img-box col-md-4">
+		<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
 
 			<i class="fa fa-subway  fa-5x"></i> 
 
@@ -138,7 +138,7 @@
 
 		</article>
 
-		<article class="img-box col-md-4">
+		<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
 
 			<i class="fa fa-shopping-basket fa-5x"></i> 
 
@@ -156,7 +156,7 @@
 
 		</article>
 
-		<article class="img-box col-md-4">
+		<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1s">
 
 			<i class="fa fa-bus fa-5x"></i> 
 
@@ -174,7 +174,7 @@
 
 		
 
-			<article class="img-box col-md-4">
+			<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
 
 			<i class="fa fa-graduation-cap fa-5x"></i> 
 
@@ -196,7 +196,7 @@
 
 		</article>
 
-		<article class="img-box col-md-4">
+		<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="2s">
 
 			<i class="fa fa-cutlery fa-5x"></i> 
 
@@ -213,7 +213,7 @@
 
 		</article>
 
-		<article class="img-box col-md-4">
+		<article class="img-box col-md-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="2.5s">
 
 			<i class="fa fa-google-wallet fa-5x"></i> 
 
@@ -244,7 +244,7 @@
 		<div class="row">
 			
 			<article class="image-box col-md-6">
-				<img src="img/block3img1.jpg" alt="">
+				<img class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s" src="img/block3img1.jpg" alt="">
 			</article>
 			
 			<article class="text-box col-md-6">
@@ -269,7 +269,7 @@
 		<div class="row">
 
 			<article class="image-box col-md-6 col-md-push-6">
-				<img src="img/block3img2.jpg" alt="">
+				<img class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0s" src="img/block3img2.jpg" alt="">
 			</article>
 			
 			<article class="text-box col-md-6 col-md-pull-6">

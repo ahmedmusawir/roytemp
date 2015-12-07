@@ -7,6 +7,7 @@
 		<title>WANDERVALE</title>
 
 		<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/animate.css">
 		<link href="style.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
